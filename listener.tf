@@ -72,7 +72,7 @@ resource "aws_lb_listener" "httpss" {
     }
   }
 }
-resource "aws_lb_listener" "httpss" {
+resource "aws_lb_listener" "httpss1" {
   load_balancer_arn = aws_lb.test.arn
   port              = 443
   protocol          = "HTTPS"
